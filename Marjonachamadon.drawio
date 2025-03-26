@@ -1,9 +1,111 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="Page-1" id="Y7FMhzRuxHHTrijtomSf">
-    <mxGraphModel>
+    <mxGraphModel dx="6267" dy="3400" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-2" value="&#xa;" style="swimlane;startSize=0;strokeColor=none;fontSize=40;fontColor=none;noLabel=1;" vertex="1" parent="1">
+          <mxGeometry x="-357" y="129" width="4879" height="2801" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-10" value="&#xa;&lt;p class=&quot;&quot; data-end=&quot;215&quot; data-start=&quot;159&quot;&gt;1️⃣ &lt;strong data-end=&quot;213&quot; data-start=&quot;163&quot;&gt;Sayohatchilar yuklarini boshqarishda qiynaladi&lt;/strong&gt;&lt;/p&gt;&#xa;&lt;ul data-end=&quot;358&quot; data-start=&quot;219&quot;&gt;&#xa;&lt;li class=&quot;&quot; data-end=&quot;286&quot; data-start=&quot;219&quot;&gt;&#xa;&lt;p class=&quot;&quot; data-end=&quot;286&quot; data-start=&quot;221&quot;&gt;Aeroportda yoki sayohat davomida yuklarni nazorat qilish qiyin.&lt;/p&gt;&#xa;&lt;/li&gt;&#xa;&lt;li class=&quot;&quot; data-end=&quot;358&quot; data-start=&quot;290&quot;&gt;&#xa;&lt;p class=&quot;&quot; data-end=&quot;358&quot; data-start=&quot;292&quot;&gt;Ba’zan odamlar yuklarini unutib qo‘yishi yoki yo‘qotishi mumkin.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&#xa;&#xa;" style="swimlane;startSize=0;fillColor=#d80073;swimlaneFillColor=none;fontColor=#ffffff;strokeColor=#A50040;swimlaneLine=0;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-2">
+          <mxGeometry x="41" y="29" width="1436" height="1770" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-26" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 100px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Problems&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-10">
+          <mxGeometry x="124" y="13" width="405" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-25" value="&lt;font style=&quot;font-size: 100px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Existing Alternatives&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-10">
+          <mxGeometry x="267" y="930" width="614" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-53" value="&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;font style=&quot;&quot;&gt;1. Og‘ir va noqulay chamadonlar bilan sayohat qilish. &lt;br&gt; 2. Chamadon yo‘qolishi va xavfsizlik muammosi. &lt;br&gt; 3. Sayohat davomida quvvat tugashi (telefon, noutbuk va h.k.). &lt;br&gt; 4. Narsalarni tartibsiz joylash va kerakli narsani topish qiyinligi. &lt;br&gt; 5. Do‘kondan xaridlarni olib yurish noqulayligi&lt;/font&gt;&lt;font style=&quot;&quot;&gt;.&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-10">
+          <mxGeometry x="30" y="134" width="1034" height="511" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-56" value="1. Oddiy chamadonlar va yuk sumkalari. &lt;br&gt; 2. GPS trekerlari bilan alohida xavfsizlik tizimlari. &lt;br&gt; 3. Portativ quvvat banklari. &lt;br&gt; 4. Ichki bo‘linmalari bo‘lgan oddiy chamadonlar. &lt;br&gt; 5. Alohida do‘kon sumkalari va aravachalar." style="text;whiteSpace=wrap;html=1;fontSize=50;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-10">
+          <mxGeometry x="50" y="1270" width="973" height="414" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-12" value="" style="swimlane;startSize=0;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-2">
+          <mxGeometry x="1087" y="910" width="969" height="889" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-13" value="" style="swimlane;startSize=0;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-12">
+          <mxGeometry x="970" y="-881" width="937" height="1770" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-28" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 100px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Unique value Propositions&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-13">
+          <mxGeometry x="153" y="46" width="644" height="353" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-34" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 100px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;High&amp;nbsp; level consept&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-13">
+          <mxGeometry x="191.00333333333356" y="935.0033333333336" width="550" height="382" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-43" value="AI va IoT asosida ishlovchi aqlli chamadon: yo‘qolish xavfsizligi yo‘q, harakatlanish qulayligi va sayohatni maksimal yengillashtiradi." style="text;whiteSpace=wrap;html=1;fontSize=60;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-13">
+          <mxGeometry x="91" y="320" width="863" height="451" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-47" value="“Tesla avtomobili kabi aqlli, yo‘qolmaydigan va maksimal qulay chamadon.”" style="text;whiteSpace=wrap;html=1;fontSize=60;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-13">
+          <mxGeometry x="38" y="1244" width="779" height="393" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-9" value="" style="swimlane;startSize=0;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-12">
+          <mxGeometry x="15" y="-901" width="936" height="878" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-27" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 100px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Solutions&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-9">
+          <mxGeometry x="220" y="59" width="400" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-42" value="&lt;font&gt;1. AI bilan boshqariluvchi o‘z-o‘zidan harakatlanuvchi chamadon. &lt;br&gt; 2. Chamadon ichiga o‘rnatilgan GPS treker va xavfsizlik tizimi. &lt;br&gt; 3. Quvvat olish uchun ichki batareyalar va simsiz zaryadlash imkoniyati. &lt;br&gt; 4. Ichki aqlli tartib tizimi, avtomatik ajratish imkoniyati. &lt;br&gt; 5. Maxsus kengayuvchi bo‘lim, xaridlarni joylashtirish uchun.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-9">
+          <mxGeometry x="16" y="210" width="916" height="678" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-35" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 100px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Key metrics&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-12">
+          <mxGeometry x="210" y="51" width="550" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-46" value="&lt;font style=&quot;font-size: 60px;&quot;&gt;1. Sotilgan chamadonlar soni. &lt;br&gt; 2. Mijozlar qoniqish darajasi. &lt;br&gt; 3. Ilova yuklab olinganlar soni. &lt;br&gt; 4. Xavfsizlik tizimi orqali oldi olinayotgan yo‘qotishlar soni.&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=50;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-12">
+          <mxGeometry x="104" y="237" width="797.5" height="517" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-15" value="" style="swimlane;startSize=0;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-2">
+          <mxGeometry x="3005" y="893" width="891" height="898" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-33" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 100px;&quot;&gt;Channels&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-15">
+          <mxGeometry x="112" y="75" width="644" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-48" value="1. Rasmiy veb-sayt va ilova. &lt;br&gt; 2. E-commerce platformalar (Amazon, Alibaba). &lt;br&gt; 3. Ijtimoiy tarmoqlar (Instagram, TikTok, YouTube marketing)." style="text;whiteSpace=wrap;html=1;fontSize=60;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-15">
+          <mxGeometry x="41" y="230" width="784" height="272" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-16" value="" style="swimlane;startSize=0;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-2">
+          <mxGeometry x="3907" y="16" width="972" height="1761" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-29" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 100px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Customer segments&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-16">
+          <mxGeometry x="194" y="69" width="644" height="353" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-32" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 100px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Early adopters&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-16">
+          <mxGeometry x="194" y="926" width="644" height="353" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-45" value="1. Ko‘p sayohat qiluvchilar (business travelers, bloggers). &lt;br&gt; 2. Mehmonxonalar va sayyohlik kompaniyalari. &lt;br&gt; 3. Katta shahar aholisi (do‘kondan xarid qiluvchilar)." style="text;whiteSpace=wrap;html=1;fontSize=60;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-16">
+          <mxGeometry x="58" y="355" width="914" height="488" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-49" value="&lt;font&gt;1. Business-class yo‘lovchilar. &lt;br&gt; 2. Texnologiyaga qiziqqan sayohatchilar. &lt;br&gt; 3. Brend ixlosmandlari va trend kuzatuvchilar.&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=60;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-16">
+          <mxGeometry x="29" y="1173" width="936" height="418" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-17" value="" style="swimlane;startSize=0;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-2">
+          <mxGeometry x="69" y="1809" width="2460" height="926" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-37" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 100px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Cost structure&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-17">
+          <mxGeometry x="229" y="43.9966666666669" width="451" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-50" value="1. AI va IoT dasturiy ta’minot ishlab chiqish. &lt;br&gt; 2. Ishlab chiqarish xarajatlari. &lt;br&gt; 3. Marketing va reklama. &lt;br&gt; 4. Logistika va yetkazib berish." style="text;whiteSpace=wrap;html=1;fontSize=60;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-17">
+          <mxGeometry x="245" y="319" width="1438" height="377" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-20" value="" style="swimlane;startSize=0;labelBackgroundColor=default;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-2">
+          <mxGeometry x="2539" y="1799" width="2310" height="972" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-36" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 100px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Revenue streams&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-20">
+          <mxGeometry x="253" y="67" width="451" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-51" value="&lt;font&gt;1. Chamadonlarning to‘g‘ridan-to‘g‘ri sotilishi. &lt;br&gt; 2. Ilova orqali premium xizmatlar. &lt;br&gt; 3. Xavfsizlik xizmati va monitoring obunalari&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=60;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-20">
+          <mxGeometry x="176" y="361" width="1377" height="418" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-14" value="" style="swimlane;startSize=0;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-2">
+          <mxGeometry x="3009" y="21" width="883" height="883" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-30" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 100px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Unfair advantage&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-14">
+          <mxGeometry x="115" y="44" width="644" height="353" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMWcqwVkjthPNHHZOJV-44" value="&lt;font&gt;1. AI va IoT kombinatsiyasida ishlovchi dasturiy ta’minot. &lt;br&gt; 2. Yuqori xavfsizlik tizimi (barmoq izi, yuz skaneri). &lt;br&gt; 3. Ichki batareya bilan uzoq muddatli ishlash.&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=60;" vertex="1" parent="qDMWcqwVkjthPNHHZOJV-14">
+          <mxGeometry x="33" y="311" width="846" height="518" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
