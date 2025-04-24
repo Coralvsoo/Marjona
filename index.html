@@ -1,0 +1,125 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+   
+</head>
+<body id="body">
+   <h1>To do list</h1> 
+ 
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 ta Test Savollari</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+        }
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        button.wrong {
+            background-color: #f44336;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>5 ta Test Savollari</h1>
+    
+    <div id="quiz-container">
+        <div class="question" id="q1">
+            <h3>1. Quyosh Yerdan kattaroqdir.</h3>
+            <button onclick="checkAnswer(1, true)">To'g'ri</button>
+            <button onclick="checkAnswer(1, false)" class="wrong">Noto'g'ri</button>
+        </div>
+        
+        <div class="question" id="q2">
+            <h3>2. Python dasturlash tili 1991-yilda yaratilgan.</h3>
+            <button onclick="checkAnswer(2, true)">To'g'ri</button>
+            <button onclick="checkAnswer(2, false)" class="wrong">Noto'g'ri</button>
+        </div>
+        
+        <div class="question" id="q3">
+            <h3>3. O'zbekistonning poytaxti Toshkent shahri.</h3>
+            <button onclick="checkAnswer(3, true)">To'g'ri</button>
+            <button onclick="checkAnswer(3, false)" class="wrong">Noto'g'ri</button>
+        </div>
+        
+        <div class="question" id="q4">
+            <h3>4. Suv 100 daraja Selsiyda qaynaydi.</h3>
+            <button onclick="checkAnswer(4, true)">To'g'ri</button>
+            <button onclick="checkAnswer(4, false)" class="wrong">Noto'g'ri</button>
+        </div>
+        
+        <div class="question" id="q5">
+            <h3>5. Ayollar olimpiadasida erkaklar ishtirok eta olmaydi.</h3>
+            <button onclick="checkAnswer(5, false)">To'g'ri</button>
+            <button onclick="checkAnswer(5, true)" class="wrong">Noto'g'ri</button>
+        </div>
+    </div>
+    
+    <div id="result"></div>
+    
+    <script>
+        // To'g'ri javoblar
+        const correctAnswers = {
+            1: true,
+            2: true,
+            3: true,
+            4: true,
+            5: false
+        };
+        
+        // Javobni tekshirish funksiyasi
+        function checkAnswer(questionNum, userAnswer) {
+            const resultDiv = document.getElementById('result');
+            const speech = new SpeechSynthesisUtterance();
+            speech.lang = 'uz-UZ';
+            
+            if (userAnswer === correctAnswers[questionNum]) {
+                speech.text = "To'g'ri!";
+                resultDiv.innerHTML = `<p style="color: green;">To'g'ri! 👏</p>`;
+            } else {
+                speech.text = "Noto'g'ri!";
+                resultDiv.innerHTML = `<p style="color: red;">Noto'g'ri! 😞</p>`;
+            }
+            
+            // Ovoz chiqarish
+            window.speechSynthesis.speak(speech);
+            
+            // Natijani 2 sekunddan keyin yo'q qilish
+            setTimeout(() => {
+                resultDiv.innerHTML = '';
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
